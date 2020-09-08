@@ -1,6 +1,6 @@
 function drawChart() {
 
-	d3.csv("FTSE-ADJ.csv").then(function(prices) {
+	d3.csv("Data_FC2-KPN.csv").then(function(prices) {
 		
 		const months = {0 : 'Jan', 1 : 'Feb', 2 : 'Mar', 3 : 'Apr', 4 : 'May', 5 : 'Jun', 6 : 'Jul', 7 : 'Aug', 8 : 'Sep', 9 : 'Oct', 10 : 'Nov', 11 : 'Dec'}
 
